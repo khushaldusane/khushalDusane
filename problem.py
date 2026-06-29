@@ -27,3 +27,11 @@ if str(x)==str(x[::-1]):
   print("True")
 else:
   print("False")
+
+#Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+l1=[1,1,2,3,4]
+l2=[2,5,6,7,9]
+m=l1+l2
+m.sort()
+print(m)
