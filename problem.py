@@ -82,3 +82,14 @@ for j in l1:
 print(l2)
 
 
+# Write a Python function that takes a string as input and counts the frequency of each character in the string. 
+# The function should return a dictionary where the keys represent the characters and the values represent their corresponding frequencies.
+
+dict1={}
+a=input(f"Enter a string")
+for i in a:
+  dict1[i]=a.count(i)
+print(dict1)
+
+
+
