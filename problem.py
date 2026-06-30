@@ -36,11 +36,8 @@ m=l1+l2
 m.sort()
 print(m)
 
-# Question:
 # With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
-# Suppose the following input is supplied to the program:
-# 8
-# Then, the output should be:
+# Suppose the following input is supplied to the program: 8  , Then the output should be:
 # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 
 n=int(input("Enter a number "))
@@ -48,3 +45,25 @@ d={}
 for i in range(1,n+1):
   d[i]=i*i
 print(d)
+
+# Write a Python function that takes a list of numbers as input and 
+# returns a new list containing only the even numbers from the original list.
+
+l1=[]
+l2=[]
+n=int(input("How many numbers you want to enter in list ?"))
+for i in range(n):
+  num=int(input(f"Enter the numbers to put in lists {i+1} :"))
+  l1.append(num)
+for j in l1:
+  if j%2==0:
+    l2.append(j)
+print(l2)
+
+n=int(input("Enter a number "))
+d={}
+for i in range(1,n+1):
+  d[i]=i*i
+print(d)
+
+
