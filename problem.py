@@ -92,4 +92,16 @@ for i in a:
 print(dict1)
 
 
+# Write a code that takes a sentence as input and returns the sentence with the order of words reversed. 
+# Each word in the sentence should remain unchanged, but the order of the words should be reversed.
+
+sentence=input(f"Enter the sentence")
+words=sentence.split()
+sent=[]
+for i in words:
+  sent.append(i)
+sent.reverse()
+print(sent)
+
+
 
