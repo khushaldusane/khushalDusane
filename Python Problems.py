@@ -115,7 +115,20 @@ for i in num:
     newlist.sort()
 print(newlist)
 
+# Write a function called find_missing_number that takes a list of integers from 1 to N (inclusive), 
+# with one number missing, and returns the missing number. For example, if the input list is [1, 2, 3, 5], 
+# the missing number is 4, so the function should return 4.
 
+def find_missing_number(list_):
+  missing_num=[]
+  max_num=max(list_)
+  for i in range(max_num+1):
+    if i not in list_:
+      missing_num.append(i)
+  return missing_num    
+
+print(find_missing_number(list_))
+list_=[1,5,4,7,2,4,3,2,6,0]
 
 
 
